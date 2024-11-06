@@ -11,7 +11,8 @@
 1..docker network create mynetwork
 2.docker build -f DockerContainer_MS_SQL.dockerfile -t my-mssql-image . 
 3.docker run -d --name sql-server --network mynetwork -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong@Passw0rd" -p 1433:1433 my-mssql-image
-**login SSMS ด้วย user=sa,password=YourStrong@Passw0rd**
+4.login SSMS ด้วย user=sa,password=YourStrong@Passw0rd**
+5.สร้างDataBaseใหม่ ชื่อmyDB
 
 #open CURD folder
 **ถ้าใช้ intelliJ IDEA ให้กด open folder ในแอพแล้วก็กดเข้าCURDแล้วเลือกCURD (ชื่อซ้ำกัน)
