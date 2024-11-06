@@ -1,10 +1,10 @@
 #clone project
 1.git clone https://github.com/phuwalit6609650590/cs261.git
 
-**cd เข้าไปใน Folder frontend**
+**cd เข้าไปใน Folder cs261-frontend**
 #bulid and run frontend
-2.docker build -f DockerContainer_NodeJS.dockerfile -t node-js-image .
-3.docker run -p 3000:3000 node-js-image
+1.docker build -f DockerContainer_NodeJS.dockerfile -t node-js-image .
+2.docker run -p 3000:3000 node-js-image
 
 **cd เข้าไปใน Folder SetupDocker 
 #build Container สำหรับ DataBase

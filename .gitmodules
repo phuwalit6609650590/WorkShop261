@@ -1,0 +1,6 @@
+[submodule "cs261"]
+	path = cs261
+	url = https://github.com/phuwalit6609650590/cs261.git
+[submodule "cs261-frontend"]
+	path = cs261-frontend
+	url = https://github.com/phuwalit6609650590/cs261-frontend.git
