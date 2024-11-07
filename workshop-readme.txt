@@ -2,6 +2,7 @@
 1.git clone https://github.com/phuwalit6609650590/cs261.git
 
 **cd เข้าไปใน Folder cs261-frontend**
+-git submodule update --init --recursive //ดึงข้อมูลมาจากอีกกิตที่เป็นsubmodule (ดึงไฟล์frontend)
 #bulid and run frontend
 1.docker build -f DockerContainer_NodeJS.dockerfile -t node-js-image .
 2.docker run -p 3000:3000 node-js-image
@@ -15,6 +16,6 @@
 5.สร้างDataBaseใหม่ ชื่อmyDB
 
 #open CURD folder
-**ถ้าใช้ intelliJ IDEA ให้กด open folder ในแอพแล้วก็กดเข้าCURDแล้วเลือกCURD (ชื่อซ้ำกัน)
+**ถ้าใช้ intelliJ IDEA ให้กด open folderในแอพแล้ว ก็กดเข้าCURDแล้วเลือกCURD (ชื่อซ้ำกัน)
 1.กดรันCrudApplication เพื่อเปิดใช้งาน backend ไว้จัดการกับ frontend และ DataBase ก่อน
 ทดลองlogin
